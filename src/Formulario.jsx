@@ -66,7 +66,7 @@ export default function Formulario() {
       outrasContas,
     };
 
-    emailjs.send('service_id', 'template_id', formData, 'user_id')
+    emailjs.send('service_pr4o2nh', 'template_jkps8zu', formData, '2im7v2QcZ0nFHbepm')
       .then((response) => {
         console.log('Sucesso:', response);
         setShowPopup(true);
